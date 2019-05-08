@@ -1,34 +1,3 @@
-ÊµÑéÆ÷²Ä:
-	MiniSTM32F103¿ª·¢°åV3°æ±¾
-	
-ÊµÑéÄ¿µÄ:
-	Ñ§Ï°DS18B20Êý×ÖÎÂ¶È´«¸ÐÆ÷µÄÊ¹ÓÃ.
-	
-Ó²¼þ×ÊÔ´:
-	1,DS0(Á¬½ÓÔÚPA8) 
-	2,´®¿Ú1(²¨ÌØÂÊ:9600,PA9/PA10Á¬½ÓÔÚ°åÔØUSB×ª´®¿ÚÐ¾Æ¬CH340ÉÏÃæ)
-	3,ALIENTEK 2.8/3.5/4.3/7´çTFTLCDÄ£¿é(Í¨¹ýGPIOÇý¶¯,Á¬½Ó¹ØÏµ¼ûlcd.h)
-	4,DS18B20´«¸ÐÆ÷Ò»¸ö(½ÓÔÚPA0ÉÏ). 
-		
-ÊµÑéÏÖÏó:
-	±¾ÊµÑé¿ª»úµÄÊ±ºòÏÈ¼ì²âÊÇ·ñÓÐDS18B20´æÔÚ£¬Èç¹ûÃ»ÓÐ£¬ÔòÌáÊ¾´íÎó¡£Ö»ÓÐÔÚ¼ì²âµ½DS18B20Ö®ºó²Å¿ªÊ¼
-	¶ÁÈ¡ÎÂ¶È²¢ÏÔÊ¾ÔÚLCDÉÏ£¬Èç¹û·¢ÏÖÁËDS18B20£¬Ôò³ÌÐòÃ¿¸ô100ms×óÓÒ¶ÁÈ¡Ò»´ÎÊý¾Ý£¬²¢°ÑÎÂ¶ÈÏÔÊ¾ÔÚLCD
-	ÉÏ¡£Í¬ÑùÎÒÃÇÒ²ÊÇÓÃDS0À´Ö¸Ê¾³ÌÐòÕýÔÚÔËÐÐ¡£
-
-×¢ÒâÊÂÏî:  
-	1,4.3´çºÍ7´çÆÁÐèÒª±È½Ï´óµçÁ÷,USB¹©µç¿ÉÄÜ²»×ã,ÇëÓÃÍâ²¿µçÔ´¹©µç(5VµçÔ´£¬½ÓVOUT2¼´¿É).
-	2,±¾Àý³ÌÔÚLCD_Initº¯ÊýÀïÃæ(ÔÚILI93xx.c),ÓÃµ½ÁËprintf,Èç¹û²»³õÊ¼»¯´®¿Ú1,½«µ¼ÖÂÒº¾§ÎÞ·¨ÏÔÊ¾!! 
-	3,LCDÄ£¿éÔÚ¿ª·¢°åµÄLCD½Ó¿ÚÉÏÃæ£¬±ØÐë¿¿ÓÒ²å
-	4,¿ª·¢°åÃ»ÓÐ±êÅäDS18B20£¬Çë×Ô±¸£¬È»ºó½«DS18B20²åÈëU3Î»ÖÃ£¨Æ½Ãæ³¯Íâ£©¡£
-	5,¸ÃÊµÑéÐèÒª°ÑPA0ºÍ1820ÓÃÌøÏßÃ±¶Ì½ÓÔÚÒ»Æð£¬²ÅÄÜÕý³£²âÊÔ¡£
-	
-
-					ÕýµãÔ­×Ó@ALIENTEK
-					2014-3-12
-					¹ãÖÝÊÐÐÇÒíµç×Ó¿Æ¼¼ÓÐÏÞ¹«Ë¾
-					µç»°£º020-38271790
-					´«Õæ£º020-36773971
-					¹ºÂò£ºhttp://shop62103354.taobao.com
-					http://shop62057469.taobao.com
-					¹«Ë¾ÍøÕ¾£ºwww.alientek.com
-					¼¼ÊõÂÛÌ³£ºwww.openedv.com
+å¼€å‘å¹³å°stm32flc8t6
+æ¸©æ¹¿åº¦æ¨¡å—æ¹¿DHT11 dataå¼•è„šè¿žæŽ¥åœ¨PA0ä¸Š
+OLEDæ˜¾ç¤ºæ¸©åº¦å’Œæ¹¿åº¦å€¼
